@@ -59,8 +59,8 @@
 
 
 
-
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+    <!-- ICMEW 2024 re-id -->
+    <tr onmouseout="avit_stop()" onmouseover="avit_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ever_image'>
@@ -85,11 +85,11 @@
         </a>
         <br>
 				Hao Ni, 
-				<strong>Yuke Li</strong>,
+				<strong>Yuke Li</strong>, 
 				Ping Lai, 
 				Pengpeng Zeng, 
 				Hangyu Guo, 
-				Lianli Gao, 
+				Lianli Gao
 				<br>
         <em>ICMEW</em>, 2024
         <br>
@@ -99,6 +99,137 @@
         <p></p>
         <p>
 				An Attribute Vision Transformer for re-identification, plus multi-query and multi-model ensembling.
+        </p>
+      </td>
+    </tr>
+    
+    <!-- ICMEW 2024 attribute recognition -->
+    <tr onmouseout="par_stop()" onmouseover="par_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ever_image'>
+					  <img src='images/' width=100%>
+					</div>
+          <img src='images/' width=100%>
+        </div>
+        <script type="text/javascript">
+          function ever_start() {
+            document.getElementById('par_image').style.opacity = "1";
+          }
+
+          function ever_stop() {
+            document.getElementById('par_image').style.opacity = "0";
+          }
+          ever_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/10645408/"> -->
+			<span class="papertitle">Pedestrian Attributes Recognition for UAV-Human</span>
+        </a>
+        <br>
+				Hao Ni, 
+				Ping Lai, 
+				<strong>Yuke Li</strong>, 
+				Pengpeng Zeng, 
+				Haonan Zhang, 
+				Jingkuan Song
+				<br>
+        <em>ICMEW</em>, 2024
+        <br>
+        <a href="https://github.com/laiping-lp/MMVRAC-Attribute-Recognition">code</a>
+        /
+        <a href="https://ieeexplore.ieee.org/abstract/document/10645405/">paper</a>
+        <p></p>
+        <p>
+				Class Imbalance Correction Strategy (CIC) and ID-based Attribute Correction Strategy (IAC) to enhance attribute recognition.
+        </p>
+      </td>
+    </tr>
+    
+
+    <!-- ACM MM 2023 -->
+    <tr onmouseout="screid_stop()" onmouseover="screid_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ever_image'>
+					  <img src='images/' width=100%>
+					</div>
+          <img src='images/' width=100%>
+        </div>
+        <script type="text/javascript">
+          function ever_start() {
+            document.getElementById('screid_image').style.opacity = "1";
+          }
+
+          function ever_stop() {
+            document.getElementById('screid_image').style.opacity = "0";
+          }
+          ever_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/10645408/"> -->
+			<span class="papertitle">Pedestrian Attributes Recognition for UAV-Human</span>
+        </a>
+        <br>
+				<strong>Yuke Li</strong>, 
+				Jingkuan Song, 
+				Hao Ni, 
+        Heng Tao Shen
+				<br>
+        <em>ACM MM</em>, 2023
+        <br>
+        <a href="https://github.com/liyuke65535/Style-Controllable-Generalized-Person-Re-identification">code</a>
+        /
+        <a href="https://drive.google.com/file/u/0/d/1KR75W6Io8MOzXEfbOFNBSwkmZdFcj_of/view">paper</a>
+        <p></p>
+        <p>
+				Style-aware Hard-negative Sampling (SHS) and Dynamic Style Mixing (DSM) for better diversity and id-disctrimination.
+        </p>
+      </td>
+    </tr>
+    
+
+    <!-- ICCV 2023 -->
+    <tr onmouseout="pat_stop()" onmouseover="pat_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ever_image'>
+					  <img src='images/' width=100%>
+					</div>
+          <img src='images/' width=100%>
+        </div>
+        <script type="text/javascript">
+          function ever_start() {
+            document.getElementById('pat_image').style.opacity = "1";
+          }
+
+          function ever_stop() {
+            document.getElementById('pat_image').style.opacity = "0";
+          }
+          ever_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/10645408/"> -->
+			<span class="papertitle">Pedestrian Attributes Recognition for UAV-Human</span>
+        </a>
+        <br>
+				Hao Ni, 
+				<strong>Yuke Li</strong>, 
+        Lianli Gao, 
+        Heng Tao Shen, 
+				Jingkuan Song, 
+				<br>
+        <em>ICCV</em>, 2023
+        <br>
+        <a href="https://github.com/liyuke65535/Part-Aware-Transformer">code</a>
+        /
+        <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ni_Part-Aware_Transformer_for_Generalizable_Person_Re-identification_ICCV_2023_paper.html">paper</a>
+        <p></p>
+        <p>
+				Proposed a part-aware transformer (PAT) which learns more generic features via cross-ID similarity learning and part-guided self-distillation.
         </p>
       </td>
     </tr>
@@ -125,9 +256,9 @@
 								 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a>Jul 2024: 1st Place Winner in Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC) Person Reidentification track</a>
+                Jul 2024: <b>1st Place Winner</b> in Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC) Person Reidentification track
                 <br>
-                <a>Jul 2024: 1st Place Winner in Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC) Attribute Recognition track</a>
+                Jul 2024: <b>1st Place Winner</b> in Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC) Attribute Recognition track
                 <!-- <br>
                 <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
                 <br>
